@@ -63,6 +63,10 @@ import {
   STYLED_COMPONENTS_LINK,
   SYSTEM_UI_LINK,
   STYLED_SYSTEM_LINK,
+  REACT_DND_LINK,
+  REACT_BEAUTIFUL_DND_LINK,
+  VUE_EASY_DND_LINK,
+  SVELTE_DND_ACTION_LINK,
 } from "./links";
 
 type Link = {
@@ -288,8 +292,16 @@ export const projectsList: Project[] = [
     name: "Weather App",
     examples: [
       {
-        src: "https://dribbble.com/tags/weather_app",
-        text: "Dribble",
+        src: "https://reactjsexample.com/weather-application-built-using-reactjs-opencage-api-and-openweathermap-api/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/a-simple-weather-app-built-with-react/",
+        text: "Example 2",
+      },
+      {
+        src: "https://reactjsexample.com/build-a-weather-app-in-react-js-using-open-weather-api/",
+        text: "Example 3",
       },
     ],
     links: [
@@ -582,7 +594,383 @@ export const projectsList: Project[] = [
   },
   {
     name: "Custom Hooks Library",
-    examples: [],
+    examples: [
+      {
+        src: "https://usehooks.com/",
+        text: "usehooks",
+      },
+      {
+        src: "https://github.com/craig1123/react-recipes",
+        text: "react-recipes",
+      },
+      {
+        src: "https://github.com/stevenpersia/captain-hook",
+        text: "captain-hook",
+      },
+      {
+        src: "https://vueuse.org/",
+        text: "VueUse",
+      },
+    ],
+    links: [],
+  },
+  {
+    name: "Trello Clone",
+    examples: [
+      {
+        src: "https://trello.com/",
+        text: "Trello",
+      },
+    ],
+    links: [
+      FIREBASE_LINK,
+      POSTGRES_LINK,
+      MONGODB_LINK,
+      PRISMA_LINK,
+      MONGOOSE_LINK,
+      AUTH_ZERO_LINK,
+      NEXT_AUTH_LINK,
+      NETLIFY_LINK,
+      HEROKU_LINK,
+      VERCEL_LINK,
+      GRAPHQL_LINK,
+      APOLLO_CLIENT,
+      EXPRESS_LINK,
+      REACT_DND_LINK,
+      REACT_BEAUTIFUL_DND_LINK,
+      VUE_EASY_DND_LINK,
+      SVELTE_DND_ACTION_LINK,
+    ],
+  },
+  {
+    name: "Calculator",
+    examples: [
+      {
+        src: "https://codepen.io/mjijackson/pen/xOzyGX",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/calculator-app-challenge-built-with-react-js/",
+        text: "Example 2",
+      },
+      {
+        src: "https://reactjsexample.com/a-simple-calculator-app-built-using-tailwind-css-and-react-js/",
+        text: "Example 3",
+      },
+    ],
+    links: [NETLIFY_LINK, VERCEL_LINK],
+  },
+  {
+    name: "Countdown Timer",
+    examples: [
+      {
+        src: "https://reactjsexample.com/a-timer-counting-down-with-react-js/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/a-countdown-app-displaying-remaining-time-to-milestones-using-google-sheets-api/",
+        text: "Example 2",
+      },
+      {
+        src: "https://reactjsexample.com/dummy-event-countdown-made-with-gatsby-and-nes-css/",
+        text: "Example 3",
+      },
+    ],
+    links: [NETLIFY_LINK, VERCEL_LINK],
+  },
+  {
+    name: "Quiz App",
+    examples: [
+      {
+        src: "https://reactjsexample.com/a-simple-quiz-app-built-with-react-and-tailwind-css/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/us-citizenship-quiz-28-common-question-directly-from-uscis/",
+        text: "Example 2",
+      },
+      {
+        src: "https://reactjsexample.com/a-quiz-app-build-with-react-and-javascript/",
+        text: "Example 3",
+      },
+    ],
+    links: [
+      {
+        src: "https://opentdb.com/api_config.php",
+        text: "OpenTrivia API",
+      },
+      NETLIFY_LINK,
+      VERCEL_LINK,
+    ],
+  },
+  {
+    name: "Recipe App",
+    examples: [
+      {
+        src: "https://reactjsexample.com/restaurant-menu-a-website-built-with-react-js-with-beautiful-ui/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/an-online-food-delivery-application-using-react-js-es6-bootstrap5-and-firebase/",
+        text: "Example 2",
+      },
+      {
+        src: "https://reactjsexample.com/a-catalog-of-recipes-built-in-react-and-redux/",
+        text: "Example 3",
+      },
+    ],
+    links: [
+      {
+        src: "https://www.themealdb.com/api.php",
+        text: "TheMealDB API",
+      },
+      NETLIFY_LINK,
+      VERCEL_LINK,
+    ],
+  },
+  {
+    name: "Memory Card Game",
+    examples: [
+      {
+        src: "https://reactjsexample.com/memorygame-created-with-react-js-and-typescript/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/an-interactive-animated-card-memory-game-developed-with-react/",
+        text: "Example 2",
+      },
+    ],
+    links: [
+      NETLIFY_LINK,
+      VERCEL_LINK,
+      {
+        src: "https://www.youtube.com/watch?v=Txm71YeFY8g",
+        text: "Build Memory Game with React Hooks",
+      },
+      {
+        src: "https://www.youtube.com/watch?v=HxmJdlX5vmc",
+        text: "Star Wars React Memory Game with Typescript",
+      },
+    ],
+  },
+  {
+    name: "Drawing App",
+    examples: [
+      {
+        src: "https://reactjsexample.com/a-simple-magic-paint-app-made-with-react/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/a-hooks-to-svg-drawing/",
+        text: "Example 2",
+      },
+      {
+        src: "https://reactjsexample.com/a-whiteboard-react-component-using-svg/",
+        text: "Example 3",
+      },
+    ],
+    links: [
+      {
+        src: "https://www.npmjs.com/package/react-canvas-draw",
+        text: "React Canvas Draw",
+      },
+      {
+        src: "https://www.npmjs.com/package/react-sketch-canvas",
+        text: "React Sketch Canvas",
+      },
+      {
+        src: "https://www.npmjs.com/package/vue-drawing-canvas",
+        text: "Vue Drawing Canvas",
+      },
+      {
+        src: "https://github.com/SharifClick/svelte-canvas-draw",
+        text: "Svelte Canvas Draw",
+      },
+      NETLIFY_LINK,
+      VERCEL_LINK,
+    ],
+  },
+  {
+    name: "Markdown Preview",
+    examples: [
+      {
+        src: "https://reactjsexample.com/react-component-preview-markdown-text-in-web-browser/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/a-simple-react-js-markdown-editor-with-preview/",
+        text: "Example 2",
+      },
+    ],
+    links: [NETLIFY_LINK, VERCEL_LINK, REMARK_LINK, GRAY_MATTER_LINK],
+  },
+  {
+    name: "Calendar",
+    examples: [
+      {
+        src: "https://reactjsexample.com/react-calendar-component-with-support-for-multiple-views-and-events/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/family-bingo-a-ultra-lightweight-simple-christmas-themed-bingo-display-written-in-react/",
+        text: "Example 2",
+      },
+      {
+        src: "https://reactjsexample.com/beautiful-minimal-and-accessible-date-picker-for-react/",
+        text: "Example 3",
+      },
+      {
+        src: "https://reactjsexample.com/a-simple-react-datepicker-component-build-with-date-fns-and-chakra-ui/",
+        text: "Example 4",
+      },
+    ],
+    links: [NETLIFY_LINK, VERCEL_LINK],
+  },
+  {
+    name: "Hangman Game",
+    examples: [
+      {
+        src: "https://reactjsexample.com/a-hangman-game-made-using-react-js/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/a-hangman-game-built-with-react-and-typescript/",
+        text: "Example 2",
+      },
+    ],
+    links: [
+      NETLIFY_LINK,
+      VERCEL_LINK,
+      {
+        src: "https://www.youtube.com/watch?v=jj0W8tYX_q8",
+        text: "Build Hangman With React",
+      },
+    ],
+  },
+  {
+    name: "Tic-Tac-Toe Game",
+    examples: [
+      {
+        src: "https://reactjsexample.com/the-classic-tic-tac-toe-game-built-with-react/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/tic-tac-toe-game-made-with-react/",
+        text: "Example 2",
+      },
+      {
+        src: "https://reactjsexample.com/react-tutorial-tic-tac-toe-game-with-typescript-and-hooks/",
+        text: "Example 3",
+      },
+    ],
+    links: [
+      NETLIFY_LINK,
+      VERCEL_LINK,
+      {
+        src: "https://www.youtube.com/watch?v=08r9mDQvXpU",
+        text: "React.js | Complete Build | Tic Tac Toe Game with Hooks (2020)",
+      },
+      {
+        src: "https://www.youtube.com/watch?v=it54tShOsuI",
+        text: "React.js Tic Tac Toe Game in 30 Minutes",
+      },
+      {
+        src: "https://www.youtube.com/watch?v=O7lLLMTeTVo",
+        text: "Tic Tac Toe with React.js",
+      },
+    ],
+  },
+  {
+    name: "Rock-Paper-Scissors Game",
+    examples: [
+      {
+        src: "https://reactjsexample.com/rock-paper-scissors-game-built-using-react-js/",
+        text: "Example 1",
+      },
+    ],
+    links: [
+      NETLIFY_LINK,
+      VERCEL_LINK,
+      {
+        src: "https://www.youtube.com/watch?v=TIefmKAWMTo",
+        text: "Rock Paper Scissors in React vs JavaScript",
+      },
+      {
+        src: "https://www.youtube.com/watch?v=Fuml_CO6uvo",
+        text: "Rock Paper Scissors With ReactJs",
+      },
+      {
+        src: "https://www.youtube.com/watch?v=tCSaSDgz2Hw",
+        text: "Build Rock, Paper and Scissors Game with React JS",
+      },
+    ],
+  },
+  {
+    name: "Snake Game",
+    examples: [
+      {
+        src: "https://reactjsexample.com/a-simple-snake-game-created-with-the-react/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/a-simple-snake-game-base-on-react/",
+        text: "Example 2",
+      },
+    ],
+    links: [
+      NETLIFY_LINK,
+      VERCEL_LINK,
+      {
+        src: "https://www.youtube.com/watch?v=OrpJdVP-hO4",
+        text: "React JS | Snake Game with just 100 lines of code!",
+      },
+      {
+        src: "https://www.youtube.com/watch?v=dFRiNUp-FT0",
+        text: "let’s write a Snake game in plain JavaScript",
+      },
+      {
+        src: "https://www.youtube.com/watch?v=QTcIXok9wNY",
+        text: "How To Code The Snake Game In Javascript",
+      },
+    ],
+  },
+  {
+    name: "Javascript Game using Phaser.js",
+    examples: [
+      {
+        src: "https://flappybird.io/",
+        text: "Flappy Bird",
+      },
+      {
+        src: "https://en.wikipedia.org/wiki/Super_Mario",
+        text: "Super Mario",
+      },
+      {
+        src: "https://en.wikipedia.org/wiki/List_of_Space_Invaders_video_games",
+        text: "Space Invaders",
+      },
+    ],
+    links: [
+      NETLIFY_LINK,
+      VERCEL_LINK,
+      {
+        src: "https://www.youtube.com/c/Ourcadehq/featured",
+        text: "Ourcade - youtube channel, all about Phaser.js",
+      },
+    ],
+  },
+  {
+    name: "Typing Game",
+    examples: [
+      {
+        src: "https://reactjsexample.com/a-typing-test-website-build-with-react/",
+        text: "Example 1",
+      },
+      {
+        src: "https://reactjsexample.com/practice-code-typing-with-top-1000-keywords-of-the-most-popular-programming-languages/",
+        text: "Example 2",
+      },
+    ],
     links: [],
   },
 ];

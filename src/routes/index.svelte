@@ -3,8 +3,6 @@
   import { projectsList } from "../constants/projects_list";
   import type { Project } from "../constants/projects_list";
 
-  $: console.log("PROJECT LISTS LENGTH", projectsList.length);
-
   let randomProject: Project;
 
   function getRandomProject() {
@@ -15,10 +13,11 @@
   onMount(() => {
     getRandomProject();
   });
-
-  $: console.log("CURRENT PROJECT: ", randomProject);
 </script>
 
+<a class="absolute bottom-12 left-[50%] translate-x-[-50%]" href="/about"
+  >/about</a
+>
 <main class="w-full h-full bg-sky-400 flex justify-center items-center">
   <section class="flex flex-col">
     <button
@@ -29,7 +28,7 @@
 
     {#if randomProject}
       <article
-        class="bg-sky-600 p-4 w-[550px] h-[500px] rounded-lg shadow-lg mt-12 text-white"
+        class="bg-sky-600 p-4 w-[550px] h-[510px] rounded-lg shadow-lg mt-12 text-white"
       >
         <h2 class="text-3xl font-semibold">
           <span class="text-purple-300">#</span>
@@ -47,7 +46,9 @@
           {/if}
         </div>
 
-        <h3 class="text-lg">Might be useful:</h3>
+        {#if randomProject.links.length > 0}
+          <h3 class="text-lg">Might be useful:</h3>
+        {/if}
         <div class="flex flex-wrap gap-2 mt-4">
           {#if randomProject.links.length > 0}
             {#each randomProject.links as projectLink}

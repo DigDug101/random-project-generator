@@ -20,12 +20,12 @@ export const MONGOOSE_LINK = {
 
 export const AUTH_ZERO_LINK = {
   src: "https://auth0.com/",
-  text: "Auth0 - Authentication & Authorization",
+  text: "Auth0",
 };
 
 export const NEXT_AUTH_LINK = {
   src: "https://next-auth.js.org/",
-  text: "NextAuth - Authentication & Authorization",
+  text: "NextAuth",
 };
 
 export const HEROKU_LINK = {
@@ -316,4 +316,24 @@ export const SYSTEM_UI_LINK = {
 export const STYLED_SYSTEM_LINK = {
   src: "https://styled-system.com/",
   text: "Styled System",
+};
+
+export const REACT_DND_LINK = {
+  src: "https://react-dnd.github.io/react-dnd/about",
+  text: "React DnD",
+};
+
+export const REACT_BEAUTIFUL_DND_LINK = {
+  src: "https://github.com/atlassian/react-beautiful-dnd",
+  text: "React Beautiful DnD",
+};
+
+export const VUE_EASY_DND_LINK = {
+  src: "https://www.npmjs.com/package/vue-easy-dnd",
+  text: "Vue Easy DnD",
+};
+
+export const SVELTE_DND_ACTION_LINK = {
+  src: "https://www.npmjs.com/package/svelte-dnd-action",
+  text: "Svelte DnD Action",
 };
